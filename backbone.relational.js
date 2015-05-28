@@ -51,7 +51,7 @@
 ( function( root, factory ) {
 	// Set up Backbone-relational for the environment. Start with AMD.
 	if ( typeof define === 'function' && define.amd ) {
-		define( [ 'exports', 'backbone', 'underscore', 'backbone/chaining' ], factory );
+		define( [ 'exports', 'backbone', 'underscore', 'backbone.chaining' ], factory );
 	}
 	// Next for Node.js or CommonJS.
 	else if ( typeof exports !== 'undefined' ) {
@@ -2078,5 +2078,4 @@
 		return child;
 	};
 }));
-Show this icon if possible
 

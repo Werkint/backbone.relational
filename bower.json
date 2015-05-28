@@ -6,5 +6,10 @@
   ],
   "main": [
     "backbone.relational.js"
-  ]
+  ],
+  "dependencies": {
+    "backbone": "~1.2.0",
+    "underscore": "~1.8.3",
+    "backbone-chaining": "~0.1.4"
+  }
 }
