@@ -1,0 +1,10 @@
+{
+  "name": "backbone.relational",
+  "version": "1.0.0",
+  "moduleType": [
+    "amd"
+  ],
+  "main": [
+    "backbone.relational.js"
+  ]
+}
